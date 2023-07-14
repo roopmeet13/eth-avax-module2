@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Contract Example</title>
+    <style>
+        .value-output {
+            background-color: blue;
+            color: red;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Contract Example</h1>
+
+    <h2>Set Values</h2>
+    <input type="number" id="value1Input" placeholder="Value 1">
+    <button onclick="setValue1()">Set Value 1</button>
+    <br>
+    <input type="number" id="value2Input" placeholder="Value 2">
+    <button onclick="setValue2()">Set Value 2</button>
+
+    <h2>Get Values</h2>
+    <button onclick="getValue1()">Get Value 1</button>
+    <div id="value1Output" class="value-output"></div>
+    <br>
+    <button onclick="getValue2()">Get Value 2</button>
+    <div id="value2Output" class="value-output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
